@@ -1,0 +1,1300 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"P",
+				"ProfileImage"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"c",
+				"collection"
+			],
+			[
+				"count",
+				"countries"
+			],
+			[
+				"cout",
+				"countries"
+			],
+			[
+				"co",
+				"countries"
+			],
+			[
+				"selec",
+				"selection"
+			],
+			[
+				"coutn",
+				"country"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"name",
+				"namespace"
+			],
+			[
+				"t",
+				"tile_id"
+			],
+			[
+				"dow",
+				"downloadModal"
+			],
+			[
+				"GHG",
+				"GHGcalced"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"rb",
+				"rgba()"
+			],
+			[
+				"o",
+				"opacity"
+			],
+			[
+				"z",
+				"zoomInto"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"D",
+				"Dispatch"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"d",
+				"div"
+			],
+			[
+				"la",
+				"latLng"
+			],
+			[
+				"lat",
+				"latitude"
+			],
+			[
+				"dis",
+				"Dispatch"
+			],
+			[
+				"marr",
+				"markers"
+			],
+			[
+				"add",
+				"addMarker"
+			],
+			[
+				"marker",
+				"markers"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"get",
+				"getUnique"
+			],
+			[
+				"Da",
+				"DataFrame"
+			],
+			[
+				"wei",
+				"weight_size"
+			],
+			[
+				"veh",
+				"veh_list"
+			],
+			[
+				"pa",
+				"payload"
+			],
+			[
+				"ef",
+				"ef_list"
+			],
+			[
+				"com",
+				"commodity"
+			],
+			[
+				"gr",
+				"graph"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"data",
+				"dataNest"
+			],
+			[
+				"dat",
+				"dataNest"
+			],
+			[
+				"sced",
+				"schedule"
+			],
+			[
+				"col",
+				"columns"
+			],
+			[
+				"dri",
+				"drivescheduleid"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"dr",
+				"drivescheduleid"
+			],
+			[
+				"B",
+				"BSFC"
+			],
+			[
+				"sc",
+				"Schedule_ID"
+			],
+			[
+				"select",
+				"selectAll"
+			],
+			[
+				"stro",
+				"stroke-dasharray"
+			],
+			[
+				"on",
+				"oneortwo"
+			],
+			[
+				"p",
+				"p_tot"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"ghg",
+				"ghgsum"
+			],
+			[
+				"__",
+				"__ghg__"
+			],
+			[
+				"len",
+				"length-1"
+			],
+			[
+				"tes",
+				"testAjax"
+			],
+			[
+				"styles",
+				"stylesheets"
+			],
+			[
+				"in",
+				"innerRadius"
+			],
+			[
+				"Inn",
+				"innerRadius"
+			],
+			[
+				"to",
+				"totalton"
+			],
+			[
+				"ns",
+				"nstart"
+			],
+			[
+				"di",
+				"distance"
+			],
+			[
+				"fill",
+				"fill-opacity"
+			],
+			[
+				"text",
+				"textpath"
+			],
+			[
+				"nst",
+				"nstart-1"
+			],
+			[
+				"da",
+				"data0"
+			],
+			[
+				"web",
+				"webapp2"
+			],
+			[
+				"render",
+				"render_template"
+			],
+			[
+				"write",
+				"writerow"
+			],
+			[
+				"Cs",
+				"CSVtoDB"
+			],
+			[
+				"EV",
+				"EV_Scenario"
+			],
+			[
+				"Ev",
+				"EVscenario"
+			],
+			[
+				"fu",
+				"fuel_eff_electric"
+			],
+			[
+				"Pe",
+				"PercentEV"
+			],
+			[
+				"coun",
+				"country"
+			],
+			[
+				"regio",
+				"regions"
+			],
+			[
+				"quer",
+				"query2db"
+			],
+			[
+				"s",
+				"sqlq"
+			],
+			[
+				"ex",
+				"exhaust"
+			],
+			[
+				"de",
+				"description"
+			],
+			[
+				"Pass",
+				"passenger"
+			],
+			[
+				"L",
+				"Lat"
+			],
+			[
+				"pl",
+				"plant_list"
+			],
+			[
+				"ve",
+				"vehicle"
+			],
+			[
+				"route",
+				"route_list"
+			],
+			[
+				"map",
+				"map_canvas"
+			],
+			[
+				"csv",
+				"csvContent"
+			],
+			[
+				"spee",
+				"speed_status"
+			],
+			[
+				"json",
+				"jsonlist"
+			],
+			[
+				"lin",
+				"linecolor"
+			],
+			[
+				"jso",
+				"jsonlist"
+			],
+			[
+				"lef",
+				"leftindex"
+			],
+			[
+				"le",
+				"leftindex"
+			],
+			[
+				"ld",
+				"leftindent"
+			],
+			[
+				"ma",
+				"makelinechart"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"se",
+				"selectAll"
+			],
+			[
+				"v",
+				"visibility"
+			],
+			[
+				"CO",
+				"CO2"
+			],
+			[
+				"e",
+				"emfac"
+			],
+			[
+				"fuel",
+				"fuelrate"
+			],
+			[
+				"j",
+				"jsonOut"
+			],
+			[
+				"scr",
+				"screenOn"
+			],
+			[
+				"Tr",
+				"Truck_set"
+			],
+			[
+				"change",
+				"changeSpeed"
+			],
+			[
+				"tra",
+				"trans_ef"
+			],
+			[
+				"df",
+				"df2"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/Mike/NJM/NJM/settings.py",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Mike/NJM/NJM/templates/tiles/profile_image_view.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Mike/NJM/auth/urls.py",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Mike/NJM/auth/app/views.py",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Mike/NJM/tiles/admin.py",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Mike/NJM/NJM/urls.py",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Mike/NJM/tiles/views.py",
+			"settings":
+			{
+				"buffer_size": 1879,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"file": "/Users/Mike/NJM/example/urls.py",
+			"file_size": 703,
+			"file_write_time": 130580682600000000,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"pyth",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Mike/NJM/tiles/templates/tiles/profile_image_view.html",
+		"/Users/Mike/NJM/NJM/templates/tiles/profile_image_view.html",
+		"/Users/Mike/NJM/example/settings.py",
+		"/Users/Mike/NJM/example/app/views.py",
+		"/Users/Mike/NJM/example/urls.py",
+		"/Users/Mike/NJM/example/templates/home.html",
+		"/Users/Mike/NJM/tiles/views.py",
+		"/Users/Mike/NJM/tiles/forms.py",
+		"/Users/Mike/NJM/tiles/models.py",
+		"/Users/Mike/NJM/tiles/admin.py",
+		"/Users/Mike/NJM/tiles/templates/tiles/profile_image.html",
+		"/Users/Mike/NJM/tiles/urls.py",
+		"/Users/Mike/NJM/tiles/templates/tiles/results.html",
+		"/Users/Mike/NJM/tiles/templates/tiles/detail.html",
+		"/Users/Mike/NJM/tiles/templates/tiles/profile_image_form.html",
+		"/Users/Mike/NJM/NJM/urls.py",
+		"/Users/Mike/NJM/NJM/__init__.py",
+		"/Users/Mike/NJM/tiles/url.py",
+		"/Users/Mike/NJM/tiles/templates/tiles/index.html",
+		"/Users/Mike/NJM/NJM/static/tiles/untitled",
+		"/Users/Mike/NJM/NJM/settings.py",
+		"/Users/Mike/Desktop/world/angJS/d3factory.js",
+		"/Users/Mike/testdjango/polls/models.py",
+		"/Users/Mike/testdjango/polls/urls.py",
+		"/Users/Mike/testdjango/testdjango/urls.py",
+		"/Users/Mike/testdjango/polls/templates/polls/profile_image_view.html",
+		"/Users/Mike/testdjango/polls/templates/polls/index.html",
+		"/Users/Mike/testdjango/polls/templates/polls/profile_image_form.html",
+		"/Users/Mike/testdjango/polls/templates/polls/profile_image.html",
+		"/Users/Mike/testdjango/polls/migrations/0001_initial.py",
+		"/Users/Mike/testdjango/testdjango/settings.py",
+		"/Users/Mike/testdjango/polls/admin.py",
+		"/Users/Mike/testdjango/admin/How to set up a server.txt",
+		"/Users/Mike/testdjango/polls/templates/polls/base.html",
+		"/Users/Mike/testdjango/forms.py",
+		"/Users/Mike/testdjango/polls/static/polls/style.css",
+		"/Users/Mike/testdjango/polls/templates/polls/detail.html",
+		"/Users/Mike/testdjango/polls/templates/polls/results.html",
+		"/Users/Mike/testdjango/polls/tests.py",
+		"/Users/Mike/testdjango/from django import forms",
+		"/Users/Mike/testdjango/tiles/templates/tiles/index.html",
+		"/Users/Mike/testdjango/tiles/urls.py",
+		"/Users/Mike/testdjango/tiles/admin.py",
+		"/Users/Mike/testdjango/tiles/models.py",
+		"/Users/Mike/testdjango/tiles/views.py",
+		"/Users/Mike/testdjango/polls/views.py",
+		"/Users/Mike/testdjango/home_page/models.py",
+		"/Users/Mike/testdjango/polls/templates/index.html",
+		"/Users/Mike/Desktop/Angular/dded.html",
+		"/Users/Mike/Desktop/Angular/searchable.html",
+		"/Users/Mike/w2wioapp/main.py",
+		"/Users/Mike/CleanShipping/views/water_landing_page.html",
+		"/Users/Mike/CleanShipping/views/water_tool.html",
+		"/Users/Mike/CleanShipping/views/water_info.html",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Work_Product/Google_Map_Tool/Road/Alpha 1.01/Legend/admin/stylesheets/scripts/speed-corrected_simple.js",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Paper/Figures/SFMTA Bus ridership/SFMTAbusridership.html",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/California Well-to-wheel/Model/PEMS/admin/view_district_level_stats.html",
+		"/Users/Mike/Desktop/viusheaders.csv",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/scripts/fuel_model.py",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Visualize/GHG_footprint_sensitivity.html",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/scripts/clean_FleetDNA.py",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Visualize/data/ef_commodity_demand_c8.csv",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Output_data/payloadorBSFC_c8.csv",
+		"/Users/Mike/Desktop/precipitation_Tap/legend.js",
+		"/Users/Mike/Desktop/precipitation_Tap/index.html",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Visualize/Payload_or_BSFC.html",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Visualize/js/untitled",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Visualize/speed_distribution_alt_2.html",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Visualize/js/legend.js",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Output_data/sensitivity_c6_2010.csv",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Qualification Exam/Work Product/Figures/Graphs/VIUS/stylesheets/em_payload_commodity.html",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/California Well-to-wheel/Model/PEMS/screenPEMS.py",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/California Well-to-wheel/Model/PEMS/post_analysis.py",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Visualize/speed_distribution_alt.html",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Output_data/sensitivity_c8_2010.json",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Output_data/sensitivity_c8_2010.csv",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Input_data/Route_R.csv",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/scripts/visualize_duty_cycle.py",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Qualification Exam/Models/gem-v1.0-matlab 2/param_files/engine_map_350.m",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Input_data/driveschedule.csv",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Input_data/driveschedulesecond.csv",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Output_data/SummaryTable1_2010.csv",
+		"/Users/Mike/Desktop/untitled.tsv",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Output_data/drivingschedule_km_302_c8.csv",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/California Well-to-wheel/Model/PEMS/scripts/EMFAC_GREET.py",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Output_data/ScenarioDatabase.csv",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Visualize/screen_duty.html",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/admin/speed_distribution.html",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Output_data/data_for_fleet_dna_delivery_vans.csv",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/admin/speed_distribution_alt.html",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Qualification Exam/Models/Fuel Rate/GEM_PERE.py",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Qualification Exam/Models/gem-v1.0-matlab 2/param_files/engine_map_270.m",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Qualification Exam/Models/gem-v1.0-matlab 2/param_files/engine_map_200.m",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Qualification Exam/Models/gem-v1.0-matlab 2/param_files/engine_map_455.m",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Qualification Exam/Models/gem-v1.0-matlab 2/param_files/transmission_manual_param.m",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Qualification Exam/Models/gem-v1.0-matlab 2/param_files/vehicle_param.m",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Qualification Exam/Models/gem-v1.0-matlab 2/param_files/engine_param.m",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Qualification Exam/Models/gem-v1.0-matlab 2/param_files/electric_param.m",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Qualification Exam/Models/gem-v1.0-matlab 2/param_files/driver_param.m",
+		"/Users/Mike/Dropbox/Doctoral_Thesis/Qualification Exam/Models/gem-v1.0-matlab 2/param_files/ambient_param.m",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/admin/screen_duty_template.html",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Marginal Allocation/Model/Output_data/GHG_duty_cycle_one_percent_grade.csv",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/Route LCA/Paper/Figures/SFMTA Bus ridership/ridership_range.html",
+		"/Users/Mike/mtap1-udacity/views/circle_route.html",
+		"/Users/Mike/mtap1-udacity/main.py",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/UNEP/UNEP_onroad.py",
+		"/Users/Mike/Desktop/trash/file.csv",
+		"/Users/Mike/Documents/CleanShipping/main.py",
+		"/Users/Mike/mtap1-udacity/Login_Example/main.py",
+		"/Users/Mike/CleanShipping/assets/css/topmenufixed.css",
+		"/Users/Mike/CleanShipping/views/FAF.html",
+		"/Users/Mike/CleanShipping/views/total_cost_to_own.html",
+		"/Users/Mike/CleanShipping/views/precipitation.html",
+		"/Users/Mike/CleanShipping/views/GHGs_on_LA_freeways.html",
+		"/Users/Mike/CleanShipping/views/homepage.html",
+		"/Users/Mike/CleanShipping/views/fuel_live.html",
+		"/Users/Mike/CleanShipping/views/arctic_shipping.html",
+		"/Users/Mike/CleanShipping/views/cumulative_average.html",
+		"/Users/Mike/CleanShipping/views/beautiful_soup.html",
+		"/Users/Mike/CleanShipping/views/map_d3js.html",
+		"/Users/Mike/CleanShipping/views/HG_intake.html",
+		"/Users/Mike/Desktop/tommy/index.html",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/UNEP/Output_Data/PC/Diesel/2030/India/summary.csv",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/UNEP/Output_Data/HHD/Diesel/2010/EU 15/summary.csv",
+		"/Users/Mike/Desktop/What did I do.txt",
+		"/Users/Mike/Downloads/quit 1.8 2/quit",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/UNEP/Input_data/HDT/HDT_fuel_consumption(made up scenarios).xlsx",
+		"/Users/Mike/Google Drive/Doctoral Thesis/Projects/UNEP/Output_Data/PC/2010/Chile/2010_PC_Petrol_Chile_UNEP.csv"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"get_queryset",
+			"req",
+			"UserSocialAuth",
+			"user",
+			"home",
+			"authe",
+			"auth",
+			"admin",
+			"jq",
+			"lead",
+			"example",
+			"exam",
+			"example",
+			"email",
+			"email_from",
+			"email",
+			"media",
+			"app",
+			"ROOT_PATH",
+			"BASE_DIR",
+			"templa",
+			"secre",
+			"TEMPLATE_DIRS",
+			"'home.html'",
+			"tem",
+			"mine",
+			"mineid",
+			"mine",
+			"django.utils.log.RequireDebugFalse",
+			">\n",
+			"bootpl",
+			"boot",
+			"made",
+			"min-height",
+			".top",
+			"top",
+			"tops",
+			"top",
+			"100px",
+			"panel",
+			"panl",
+			"well",
+			"que",
+			"ProfileImageView",
+			"profile_image_upload",
+			"reque",
+			"polls",
+			"poll",
+			"polls",
+			"ProfileImageIndexView",
+			"apac",
+			"pass",
+			"Missing",
+			"INSTALLED_APPS",
+			"req",
+			"answer_text",
+			"ProfileImageIndexView",
+			"latest_question_list",
+			"rever",
+			"admin",
+			"tile",
+			"tiles",
+			"grid",
+			"tiles",
+			"grid",
+			"gride",
+			"background-color",
+			"Tem",
+			"tem",
+			"pngo",
+			"SimpleHTTPServer",
+			"clean",
+			"down",
+			"consol",
+			"cons",
+			"al",
+			"whereControl",
+			"console",
+			"trip",
+			"start_location",
+			"trip",
+			"consol",
+			"cons",
+			"reset",
+			"Auto",
+			"auto",
+			"latit",
+			"road",
+			"admin",
+			"poi",
+			"ter",
+			"fff",
+			"fill",
+			"fff",
+			"labe",
+			"label",
+			"land",
+			"water",
+			"margin",
+			"- 50px",
+			"color: #fff",
+			"38px",
+			"98% - 38px",
+			"320px",
+			"consol",
+			"Backhaul",
+			"registerMap",
+			"line",
+			"line = null",
+			"line",
+			"colorline",
+			"polyline",
+			"addMarker",
+			"line",
+			"response.routes[0]",
+			"addMarker",
+			"pac-input",
+			"geocoderService",
+			"directionsService",
+			"geocoderService",
+			"traffic",
+			"registerMap",
+			"+d.__weight_size - 2",
+			".attr(\"height\", y.rangeBand()/3);",
+			"y(d.__name) + (+d.__weight_size - 2)*y.rangeBand()/3",
+			".attr(\"y\", function(d) { return y(d.__name); })",
+			"d.__name+d.__weight_size",
+			"title"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"auth",
+			"'example/home.html'",
+			"tiles",
+			"ubuntu",
+			"- 40px",
+			"- 38px",
+			"- 35px",
+			"- 40px",
+			"color: #000",
+			"50px",
+			"45px",
+			"50px",
+			"60px",
+			"98% - 40px",
+			"400px",
+			"ourRoute",
+			"4 - (+d.__weight_size)",
+			"4 - (+d.__weight_size - 2)",
+			".attr(\"height\", y.rangeBand()/3-1);",
+			"y(d.__name) + (+d.__weight_size - 2)*y.rangeBand()/3 - 1",
+			".attr(\"y\", function(d) { return y(d.__name) + (+d.__weight_size -2 )*y.rangeBand()/3); })",
+			".attr(\"y\", function(d) { return y(d.__name)+ (+d._weight_size-2)*y.rangeBand()/3); })",
+			"d.__name",
+			"\",\"",
+			"\",",
+			"\":\"",
+			",",
+			"color.quantiles()",
+			"d[0]",
+			".attr(\"x\", -55)\n	    	.attr(\"y\", -15)",
+			".attr(\"x\", -35)\n	    	.attr(\"y\", -15)",
+			".attr(\"x\", -15)\n	    	.attr(\"y\", -15)",
+			"top: 35",
+			".style(\"font-size\", 20)",
+			".style(\"font-size\", 20).style(\"font-weight\", \"bold\")",
+			" (1,000 kg)",
+			"(1,000 kg)",
+			"1000 kg",
+			".style(\"font-size\", 18).style(\"font-weight\", \"bold\")",
+			".style(\"font-size\", 16).style(\"font-weight\", \"bold\")",
+			".style(\"font-size\", 20).style(\"font-weight\", \"bold\")",
+			"elif(p<12):",
+			"elif(p<10):",
+			"if(p<9):",
+			".style(\"opacity\",0.55)",
+			".style(\"opacity\",0.4)",
+			".text(function(d){ return d[4]})\n				    .style(\"font-size\", 14).style(\"opacity\",0.7)",
+			"//.style(\"stroke\", function(){ if (e > 80){ return \"none\"}else{return  \"#000\"}})",
+			"a.payload, a.totE, a.x",
+			"a.totE",
+			",",
+			"",
+			"mapGHGperkm",
+			"grade=g, bsfc=200",
+			"[round(d[",
+			"[np.sum(np.array(x",
+			"good",
+			"km",
+			"d[\"%(v)s\"]",
+			"d.speed",
+			"d.c8",
+			"d.second",
+			"convertEnd",
+			"translateEnd",
+			"plant_list",
+			"fileout",
+			",",
+			"th PM filter', 9.0] ,",
+			"ro I+II', 40],",
+			" V', 40],",
+			"[ 'Motorcycles 4-stroke', 3]",
+			"\"MC\": [",
+			"'Pass.car diesel with PM filter', 9.0] ",
+			"\"PC\": [",
+			"II', 40]",
+			"\"BUS\": [",
+			"'Bus Euro I+II', 40]",
+			"'Bus Euro I+II', 40",
+			"\"BUS\": [",
+			"'Heavy trucks Euro V', 40]",
+			"\"HDV\": [",
+			"",
+			"country",
+			"countries",
+			"FE",
+			"T7 CAIRP",
+			"DSL",
+			"T6 CAIRP small",
+			"UBUS",
+			"truck",
+			"T7 Single",
+			"model",
+			"1.60934, 0]",
+			"[float(data",
+			",",
+			"",
+			"5",
+			",",
+			"cale(0.7, 0.7)",
+			"scale(0.5, 0.5)",
+			"average",
+			"y(1)",
+			"20, 0, 1",
+			"Emission Factor, g CO2,e / ton-km",
+			"mt",
+			"4000",
+			"12500/(0.75*6.1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/Mike/NJM/NJM/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/Mike/NJM/NJM/templates/tiles/profile_image_view.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/Mike/NJM/auth/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/Mike/NJM/auth/app/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/Mike/NJM/tiles/admin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/Mike/NJM/NJM/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/Mike/NJM/tiles/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1879,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1484,
+								1484
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 157.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/Mike/NJM/example/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 188.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "NJM.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"NJM/__init__.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 194.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

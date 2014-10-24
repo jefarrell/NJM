@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>tiles</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A place to learn...">
+    <meta name="author" content="Mike Taptich">
+    <!-- Le styles -->
+  
+    <link rel="stylesheet" href="styles/font-awesome.min.css">
+    <!-- documentation styles -->
+    <link rel="stylesheet" type="text/css" href="styles/docs.css">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"> 
+    {% load staticfiles %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'tiles/style.css' %}" />
+  <style>
+    body{
+      background-color: #e1dbd0;
+    }
+
+    /* Well Styles */
+.well {
+  border: 0;
+  padding: 20px;
+  min-height: 63px;
+  background: #fff;
+  box-shadow: none;
+  border-radius: 3px;
+  position: relative;
+  max-height: 100000px;
+  border-bottom: 2px solid #ccc;
+  transition: max-height 0.5s ease;
+  -o-transition: max-height 0.5s ease;
+  -ms-transition: max-height 0.5s ease; 
+  -moz-transition: max-height 0.5s ease;
+  -webkit-transition: max-height 0.5s ease;}
+
+.well.no-padding { padding: 0; }
+
+/* Well Controls */
+.well .header {
+  color: #bbbbbb;
+  font-size: 16px;
+  margin-bottom: 10px; 
+  transition: margin-bottom 0.5s ease; 
+  -o-transition: margin-bottom 0.5s ease;
+  -ms-transition: margin-bottom 0.5s ease;
+  -moz-transition: margin-bottom 0.5s ease;
+  -webkit-transition: margin-bottom 0.5s ease; }
+
+
+.well .header a { 
+  color: #bbbbbb;
+  cursor: pointer; }
+
+.well .header a i { margin-left: 10px; }
+
+.well .header a:hover {
+  color: #aaaaaa;
+  text-decoration: none; }
+
+.well .widgetrefresh {
+  top: 0;
+  left: 0;
+  z-index: 98;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  position: absolute; }
+
+.well .widgetrefresh span {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  position: absolute; }
+
+.well.shrinkwell { 
+  overflow: hidden;
+  max-height: 700px; }
+
+.well.shrinkwell .header { margin-bottom: 25px; }
+
+.well.primarybg { background: #428bca; }
+
+.well.successbg { background: #5cb85c; }
+
+.well.infobg { background: #5bc0de; }
+
+.well.dangerbg { background: #d9534f; }
+
+.well.warningbg { background: #f0ad4e; }
+
+body {
+  background: url(http://subtlepatterns.com/patterns/scribble_light.png) ;
+}
+
+#wrapper {
+  width: 90%;
+  max-width: 1100px;
+  min-width: 800px;
+  margin: 50px auto;
+}
+
+#columns {
+  -webkit-column-count: 3;
+  -webkit-column-gap: 10px;
+  -webkit-column-fill: auto;
+  -moz-column-count: 3;
+  -moz-column-gap: 10px;
+  -moz-column-fill: auto;
+  column-count: 3;
+  column-gap: 15px;
+  column-fill: auto;
+}
+
+.pin {
+  display: inline-block;
+  background: #FEFEFE;
+  border: 2px solid #FAFAFA;
+  box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+  margin: 0 2px 15px;
+  -webkit-column-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+  column-break-inside: avoid;
+  padding: 15px;
+  padding-bottom: 5px;
+  background: -webkit-linear-gradient(45deg, #FFF, #F9F9F9);
+  opacity: 1;
+  
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.pin img {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+  margin-bottom: 5px;
+}
+
+.pin p {
+  font: 12px/18px Arial, sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+@media (min-width: 960px) {
+  #columns {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+  }
+}
+
+@media (min-width: 1100px) {
+  #columns {
+    -webkit-column-count: 5;
+    -moz-column-count: 5;
+    column-count: 5;
+  }
+}
+
+#columns:hover .pin:not(:hover) {
+  opacity: 0.4;
+}
+
+  </style>
+  </head> 
+
+  <body >
+   
+    <!-- Static navbar -->
+  <div id="wrapper">
+  <div id="columns">
+      {% if latest_question_list %}
+      {% for question in latest_question_list %}
+
+              <div class="col-sm-4 col-xs-6" style="height: 300p" >
+                  <div class="pin" >
+                    <img src="http://placehold.it/250x450" style="width: 100%"/>
+                    <hr>
+                    <div class="inline">
+                      <p>id</p>
+                      <a href="{% url 'tiles:detail' question.id %}">{{ question.question_text }}</a>
+                    </div>
+                  </div>
+              </div>
+              {% endfor %}
+
+    {% else %}
+    {% endif %}
+         
+
+
+</div>
+</div>
+
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type='text/javascript' src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
