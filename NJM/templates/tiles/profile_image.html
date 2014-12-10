@@ -18,7 +18,8 @@
         <link rel="apple-touch-icon" sizes="114x114" href="/bootstrap/img/apple-touch-icon-114x114.png">
 <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" type="text/css" rel="stylesheet">
 
-
+        <link href='http://fonts.googleapis.com/css?family=Oxygen:300,400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
 
 
@@ -37,12 +38,19 @@
 }
 
 body {
-  color:#646464;
-  background-color:#efefef;
+  color:#2C3E50;
+  /*background-color:#efefef;*/
+  background-color:#FFF;
+  font-family: 'Oxygen';
 }
 
 h1,h2,h3,.highlight,.navbar a,#masthead h4 {
-  font-family:'Oswald',arial narrow,sans-serif;
+  font-family:'Noto Serif';
+
+}
+
+h1 {
+  text-align: center;
 }
 
 footer {
@@ -57,7 +65,7 @@ footer {
 
 #masthead {
   min-height:80px;
-  background-color:#e1dbd0;
+  background-color:#3498DB;
   color:#aaaacc;
 }
 
@@ -90,15 +98,25 @@ footer {
       -o-transition: all .2s ease;
       transition: all .2s ease;
 }
-
+/*
 #titleimg { 
-  height: 200px;
+  width:auto;
+  height: auto;
   overflow: hidden;
-  border-radius: 3px 0 0 3px; }
+  border-radius: 3px 0 0 3px; 
+ display:block;
+  margin-left:auto;
+  margin-right:auto;
+  }*/
 
 #titleimg img { 
-  width: 100%;
-  height: auto; }
+  width: auto;
+  height:auto;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  /*height: 100%; */
+}
 
 #topPanel {
   padding-top:0px;
@@ -115,10 +133,10 @@ footer {
   width:100%;
 }
 
-.top-spacer {
+/*.top-spacer {
   background-color:#ffffff;
   height:40px;
-}
+}*/
 
 a,a:hover {
   color:#223344;
@@ -211,6 +229,10 @@ a,a:hover {
   padding:6px;
   color:#fff;
 }
+
+.btn-primary {
+  background-color:#3498DB;
+}
     
 .btn-twitter {background-color:#4099FF;color:#fff;}
 .btn-facebook {background-color:#3B5998;color:#fff;}
@@ -261,6 +283,7 @@ a,a:hover {
           <!--/stories-->
           <div class="row">    
             <br>
+            <h1>{{image.title}}</h1>
             <div class="col-md-12 col-sm-11" id="titleimg">
               <a class="story-title" href="#"><img alt="" src="{{image.image.large.url}}" class="img-square"></a>
             </div>
@@ -268,7 +291,7 @@ a,a:hover {
               
             </div>
             <div class="col-md-10 col-sm-9">
-              <h3>{{image.title}}</h3>
+              <!-- <h3>{{image.title}}</h3> -->
               <div class="row">
                 <div class="col-xs-9" style="text-align:justify;">
                   <p> {{image.description|linebreaks}}</p>
@@ -285,7 +308,7 @@ a,a:hover {
   {%else %}
   {% endif %}
           
-          <a href="/" class="btn btn-primary pull-right btnNext">More <i class="glyphicon glyphicon-chevron-right"></i></a>
+          <a href="/" class="btn btn-primary pull-right btnNext">See Full Article <i class="glyphicon glyphicon-chevron-right"></i></a>
         
           
         </div>
@@ -304,7 +327,7 @@ a,a:hover {
   <div class="row">
     <div class="col col-sm-12">
       
-      <h1>Follow Us</h1>
+      <h2>Follow Us</h2>
       <div class="btn-group">
        <a class="btn btn-twitter btn-lg" href="#"><i class="icon-twitter icon-large"></i> Twitter</a>
      <a class="btn btn-facebook btn-lg" href="#"><i class="icon-facebook icon-large"></i> Facebook</a>
