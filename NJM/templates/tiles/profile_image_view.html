@@ -7,84 +7,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A place to learn...">
     <meta name="author" content="Mike Taptich">
-    <!-- Le styles -->
-  
 
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"> 
-    
+    <link href='http://fonts.googleapis.com/css?family=Oxygen:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.4/angular.min.js"></script>
-     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-     <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-sanitize.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-sanitize.min.js"></script>
+
   <style>
-    body{
-      background-color: #e1dbd0;
-      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-         font-weight: 300;
+
+    body{  
+      background-color: #ECF0F1;
+      font-family: 'Oxygen', sans-serif;
+      font-weight: 300;
     }
 
-    .btn-default{
-      color: #E96725 !important;
-      border: 0.5px solid #ccc;
-      border-bottom: 2px solid #ccc;
-      transition: max-height 0.5s ease;
-      -o-transition: max-height 0.5s ease;
-      -ms-transition: max-height 0.5s ease; 
-      -moz-transition: max-height 0.5s ease;
-      -webkit-transition: max-height 0.5s ease;
-      display: inline-block;
-      -webkit-column-break-inside: avoid;
-      -moz-column-break-inside: avoid;
-      column-break-inside: avoid;
-      -webkit-transition: all .2s ease;
-      -moz-transition: all .2s ease;
-      -o-transition: all .2s ease;
-      transition: all .2s ease;
+    h3 {
+      margin-top: 0;
     }
 
-    .pin {
-      border: 0;
-      min-width: 310px;
-      background: #fff ;
-      box-shadow: none;
-      border-radius: 3px;
-      position: relative;
-      max-height: 100000px;
-      border-bottom: 2px solid #ccc;
-      transition: max-height 0.5s ease;
-      -o-transition: max-height 0.5s ease;
-      -ms-transition: max-height 0.5s ease; 
-      -moz-transition: max-height 0.5s ease;
-      -webkit-transition: max-height 0.5s ease;
-      display: inline-block;
-      margin: 0 2px 15px;
-      -webkit-column-break-inside: avoid;
-      -moz-column-break-inside: avoid;
-      column-break-inside: avoid;
-      padding: 20px;
+    p {
       padding-bottom: 5px;
+    }
+
+    hr {
+      margin:0px;
+      /*border-color:#3686BE;*/
+      border-color:#000;
+      opacity: 0.5; 
+    }
+
+    /*buttons in header bar*/
+    .btn-default{
+      /*color: #3686BE !important;*/
+      color:#ECF0F1;
+      border: 2px solid #ccc;
+      transition: max-height 0.5s ease;
+      -o-transition: max-height 0.5s ease;
+      -ms-transition: max-height 0.5s ease; 
+      -moz-transition: max-height 0.5s ease;
+      -webkit-transition: max-height 0.5s ease;
+      display: inline-block;
+      -webkit-column-break-inside: avoid;
+      -moz-column-break-inside: avoid;
+      column-break-inside: avoid;
       -webkit-transition: all .2s ease;
       -moz-transition: all .2s ease;
       -o-transition: all .2s ease;
       transition: all .2s ease;
     }
 
+    .btn-default:hover{
+      color:#E74C3C;
+    }
+
+    /*actual pin objects*/
+    .pin {
+      box-shadow: none;
+      position: relative; 
+     /*border: 2px solid #000;*/
+      transition: max-height 0.5s ease;
+      -o-transition: max-height 0.5s ease;
+      -ms-transition: max-height 0.5s ease; 
+      -moz-transition: max-height 0.5s ease;
+      -webkit-transition: max-height 0.5s ease;
+      margin: 0px 0px 10px 10px;
+      -webkit-column-break-inside: avoid;
+      -moz-column-break-inside: avoid;
+      column-break-inside: avoid;
+      padding: 5px 0px 5px 5px;
+      -webkit-transition: all .2s ease;
+      -moz-transition: all .2s ease;
+      -o-transition: all .2s ease;
+      transition: all .2s ease;
+    }
+
+    /*images in pin objects*/
     .pin img {
       padding-bottom: 15px;
       margin-bottom: 5px;
+      max-height:235px;
+      max-width:90%
     }
 
+    /*pin object text*/
     .pin p {
-      color: #333;
+      /*color: #3686BE;*/
+      font-weight: 300;
+      color:#000;
       margin: 0;
     }
 
+    /*pin object headers*/
+    .pin h3 {
+      /*color: #2B6B98;*/
+      width:50%;
+      font-family:'Noto Serif';
+      font-style:italic;
+      color:#2C3E50;
+      background-color:#7CCBF2;
+      font-weight:700;
+      margin-bottom:0;
+    }
+
     .navbar{
-      background-color: black !important;
+      background-color: #ECF0F1 !important;
       border-bottom: 2px solid #eee;
       transition: max-height 0.5s ease;
       -o-transition: max-height 0.5s ease;
@@ -103,75 +133,175 @@
       transition: all .2s ease;
     }
 
+    /*header, including buttons and top row of items*/
+    #masthead {
+      min-height:100px;
+      /*background-color:#3686BE; */
+      background-color:#ECF0F1;
+    }
 
-#masthead {
-  min-height:200px;
-  background-color:#e1dbd0;
-  color:#aaaacc;
-}
+    /*header bar buttons*/
+    .upbar{
+      position: absolute;
+      background-color:#2C3E50;
+      border:none;
+     /* opacity:0.5;*/
+      /*border:2px solid #333333;*/
+      z-index: 30;
+    }
 
-.upbar{
-  position: absolute;
-  z-index: 30;
-}
+    .upbar:hover{
+      background-color:#2C3E50;
+    }
 
-.tiles {
-  margin-top:-150px;
-}
+
+    /*area where all the pin tiles are*/
+    .tiles {
+      margin-top:0px;
+    }
+
+    #sidebar{
+      /*border: 2px solid #000;*/
+      background-color: #ECF0F1;
+      margin-top:30px;
+      margin-right:20px;
+      z-index:40px;
+      width:310px;
+      float:right;
+      height:500px;
+    }
+
+    #search{
+      width:295px;
+      height:40px;
+      color:#2C3E50;
+      font-size: 20px;
+      /*font-weight: 300;*/
+      font-style:italic;
+      border: 1px solid #000;
+      border-radius: 7px;
+      margin-bottom: 15px;
+      float:right;
+      opacity:0.75;
+    }
+
+    #date {
+      font-weight: 400;
+      font-style: bold;
+    }
+
+    .list-unstyled {
+      color:#2C3E50;
+      margin-top:10px;
+      margin-left:20px;
+      font-weight: 600;
+      font-size: 20px;
+      float:left;
+        -webkit-transition: margin 0.5s ease-out;
+        -moz-transition: margin 0.5s ease-out;
+        -o-transition: margin 0.5s ease-out;
+
+    }
+
+    .nested-unstyled {
+      list-style: none;
+      /*color:#3686BE;*/
+      color:#2C3E50;
+      margin-top:5px;
+      margin-bottom: 5px;
+      font-weight: 300;
+      font-size: 15px;
+    }
+
+    li:hover{
+      color:#E74C3C;
+      cursor:pointer;
+      margin-left:2px;
+    }
 
   </style>
   </head> 
 
-  <body ng-app="mapComponentsApp">
+ <body ng-app="mapComponentsApp">
 
-<!--
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-
-      <a class="navbar-brand" href="#/home">Tiles Home</a>
-    </div> 
-
-
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="/upload">Upload a new project</a></li>
-    </div><
-  </div>
-</nav>-->
 <a href="/upload" class="upbar btn btn-default btn-lg" style="right: 140px; top: 20px;">
-Upload Your Project &nbsp;<span class="glyphicon glyphicon-cloud-upload"></span>
+Refer Content &nbsp;<span class="glyphicon glyphicon-cloud-upload"></span>
 </a>
 <a href="/login" class="upbar btn btn-default btn-lg" style="right: 20px; top: 20px;">
 Log-in &nbsp;<span class="glyphicon glyphicon-user"></span>
 </a>
 
 
-<div id="masthead">  
+<!-- masthead contains the top row of pins -->
+<div id="masthead"> 
   <div class="container">
     <div class="row" style="height:40px">
     
     
     </div> 
-  </div><!-- /cont -->
+  </div>
   
+
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="top-spacer"> </div>
       </div>
     </div> 
-  </div><!-- /cont -->
+  </div>
   
 </div>
-   
-    <!-- Static navbar -->
+
+  <div class="col-md-9">
+    <div style="margin-top: 30px;" say-where="">
+
+              {% if images %}
+              {% for img in images %}
+
+                     
+                      <div class="pin">  
+                        <div class="inline">
+                            <h3>{{img.title}}</h3>
+                            <p><span id="date">{{img.date}}</span> {{img.description|truncatechars:125}} </p>
+                            <hr>
+                        </div> 
+                      </div>  
+                      {% endfor %}
+
+            {% else %}
+            {% endif %}
+    </div>
+  </div>
+
+  <div id="sidebar">
+     <input type="text" id="search" value=" Search:">
+     <div id = "categories">
+        <ul class="list-unstyled">
+          <li>Basic Science</li>
+          <li>Impacts</li>
+            <ul class="nested-unstyled">
+              <li>Water Stress</li>
+              <li>Ecosystems</li>
+              <li>Food</li>
+              <li>Coastal Flooding</li>
+              <li>Health</li>
+              <li>Ocean Acidification</li>
+              <li>Social Costs</li>
+            </ul>
+          <li>Mitigation</li>
+          <li>Adaptation</li>
+          <li>Economics</li>
+
+        </ul>
+     </div>
+  </div>  
+ 
+
+
+
+
+
+<!--     OLD STYLE #############
 
   <div class="col-sm-12 col-xs-12 tiles">
     <div style="margin-top: 30px;" say-where="">
@@ -181,7 +311,7 @@ Log-in &nbsp;<span class="glyphicon glyphicon-user"></span>
 
                       <div class="pin" ng-style="{'width': width}" style="width: 300px">
                          
-                            <a href="{{img.image.url}}"><img src="{{img.image.large.url}}" style="width: 100%"/></a>
+                            <a href="{{img.description}}"><img src="{{img.image.large.url}}" style="width: 100%"/></a>
                             <hr>
                             <div class="inline">
                               <p>{{img.date}}</p>
@@ -194,7 +324,9 @@ Log-in &nbsp;<span class="glyphicon glyphicon-user"></span>
             {% else %}
             {% endif %}
     </div>
-  </div>
+  </div> 
+
+-->
  
 
 
