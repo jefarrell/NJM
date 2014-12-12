@@ -48,6 +48,9 @@ h1,h2,h3,.highlight,.navbar a,#masthead h4 {
   font-family:'Noto Serif';
 
 }
+p {
+  font-size:15px;
+}
 
 h1 {
   text-align: center;
@@ -64,9 +67,10 @@ footer {
 
 
 #masthead {
-  min-height:80px;
+  min-height:135px;
   background-color:#3498DB;
   color:#aaaacc;
+
 }
 
 #masthead h1 {
@@ -98,6 +102,10 @@ footer {
       -o-transition: all .2s ease;
       transition: all .2s ease;
 }
+
+#masthead .container {
+  background-color: #3498DB;
+}
 /*
 #titleimg { 
   width:auto;
@@ -107,14 +115,17 @@ footer {
  display:block;
   margin-left:auto;
   margin-right:auto;
-  }*/
+  }
+*/
 
 #titleimg img { 
-  width: auto;
-  height:auto;
+ /* width: auto;
+  height:auto;*/
   display:block;
   margin-left:auto;
   margin-right:auto;
+  max-width:700px;
+  max-height:auto;
   /*height: 100%; */
 }
 
@@ -162,7 +173,7 @@ a,a:hover {
 
 .navbar-bright a, .navbar-bright .navbar-brand, #masthead h4 {
   color:#ccccdd;
-  font-size:14px;
+  font-size:4px;
   text-transform: uppercase;
   letter-spacing:.08em;
 }
@@ -195,6 +206,10 @@ a,a:hover {
 
 .thumbnail {
   margin-bottom:8px;
+}
+
+.container {
+  background-color: #ECF0F1;
 }
 
 .img-container {
@@ -239,6 +254,26 @@ a,a:hover {
   border:none;
 }
 
+footer .container {
+  background-color: #3498DB;
+}
+body {
+  background:#ECF0F1;
+}
+div.panel{
+  border:none;
+  background-color: #FFF;
+}
+#icon {
+  margin-left: -100px;
+  margin-top:5px;
+  height:125px;
+  width:auto;
+}
+
+#home {
+  background-color: #E74C3C;
+}
     
 .btn-twitter {background-color:#4099FF;color:#fff;}
 .btn-facebook {background-color:#3B5998;color:#fff;}
@@ -260,7 +295,7 @@ a,a:hover {
 <div id="masthead">  
   <div class="container">
     <div class="row" style="height:40px">
-    
+    <object type="image/svg+xml" data="http://www.itp.jefarrell.com/icon.svg" id="icon">Your browser does not support SVG</object>
     
     </div> 
   </div><!-- /cont -->
@@ -291,7 +326,7 @@ a,a:hover {
             <br>
             <h1>{{image.title}}</h1>
             <div class="col-md-12 col-sm-11" id="titleimg">
-              <a class="story-title" href="#"><img alt="" src="{{image.image.large.url}}" class="img-square"></a>
+              <a class="story-title" href="#"><img alt="" src="{{image.image.url}}" class="img-square"></a>
             </div>
             <div class="col-md-2 col-sm-3 text-center">
               
@@ -311,12 +346,14 @@ a,a:hover {
           </div>
    
           <!--/stories-->
-  {%else %}
-  {% endif %}
-          
-          <a href="/" class="btn btn-primary pull-right btnNext">See Full Article <i class="glyphicon glyphicon-chevron-right"></i></a>
+ 
+           <a target="_blank" href="/" class="btn btn-primary pull-right btnNext" id="home">Home <i class="glyphicon glyphicon-chevron-right"></i></a>
+
+          <a target="_blank" href="{{image.weblink}}" class="btn btn-primary pull-right btnNext">See Full Article <i class="glyphicon glyphicon-chevron-right"></i></a>
         
           
+  {%else %}
+  {% endif %}
         </div>
       </div>
                                                                                        

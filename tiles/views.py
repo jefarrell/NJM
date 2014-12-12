@@ -17,7 +17,7 @@ class ProfileImageView(generic.FormView):
 
     def form_valid(self, form):
         profile_image = ProfileImage(
-            image=self.get_form_kwargs().get('files')['image'], description=form.cleaned_data['text'], date=timezone.now(), title=form.cleaned_data['title'])
+            image=self.get_form_kwargs().get('files')['image'], description=form.cleaned_data['text'], date=timezone.now(), title=form.cleaned_data['title'], weblink=form.cleaned_data['weblink'])
         profile_image.save()
         self.id = profile_image.id
         self.s = profile_image.slug
@@ -32,12 +32,27 @@ class ProfileDetailView(generic.DetailView):
     template_name = 'tiles/profile_image.html'
     context_object_name = 'image'
 
-class ProfileImageIndexView(generic.ListView):
+class ProfileImageIndexView(generic.ListView, generic.FormView):
     model = ProfileImage
     template_name = 'tiles/profile_image_view.html'
     context_object_name = 'images'
+    form_class = ProfileImageForm
+
     def get_queryset(self):
-		return ProfileImage.objects.filter(date__lte=timezone.now()).order_by('-date')[:]
+        return ProfileImage.objects.filter(date__lte=timezone.now()).order_by('-date')[:]
+
+    def form_valid(self, form):
+        profile_image = ProfileImage(
+            image=self.get_form_kwargs().get('files')['image'], description=form.cleaned_data['text'], date=timezone.now(), title=form.cleaned_data['title'], weblink=form.cleaned_data['weblink'])
+        profile_image.save()
+        self.id = profile_image.id
+        self.s = profile_image.slug
+
+        return HttpResponseRedirect(self.get_success_url())
+
+    def get_success_url(self):
+        return reverse('tiles:profile_image', kwargs={"slug": self.s, "pk": self.id})
+
 
 class ResultsView(generic.DetailView):
     model = ProfileImage;

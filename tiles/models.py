@@ -6,14 +6,12 @@ from django.template.defaultfilters import slugify
 
 
 class ProfileImage(models.Model):
-    image = StdImageField(upload_to='%Y/%m/%d', blank=True, variations={
-        'large': (600, 400),
-        'thumbnail': (100, 100, True),
-        'medium': (300, 800),
-    })
+    image = StdImageField(upload_to='%Y/%m/%d', blank=True)
     date = models.DateTimeField(auto_now=True, blank=True, default=datetime.date.today())
     description = models.TextField(max_length=20000, blank=True)
     title = models.TextField(max_length=200, blank=True)
+    weblink = models.TextField(max_length=200, blank=True)
+
 
     slug = models.SlugField()
 
